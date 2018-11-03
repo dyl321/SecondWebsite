@@ -1,0 +1,66 @@
+ul {
+    list-style-type: none;
+    background-color: green;
+    padding-left: 0%;
+    text-align: center;
+}
+
+ul li {
+    background-color: burlywood;
+    border: black solid;
+    padding: 10px 0;
+}
+
+ul li:hover {
+    background-color: lightcoral;
+    box-shadow: inset red;
+}
+
+a {
+    font-variant: small-caps;
+    font-family: 'Bangers', cursive;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+    ul li {
+        display: inline-block;
+        width: 120px;
+    }
+}
+
+.active:hover {
+    background-color: burlywood;
+}
+
+#pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.active a {
+    color: blue;
+}
